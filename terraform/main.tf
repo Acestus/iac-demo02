@@ -17,8 +17,8 @@ data "azurerm_client_config" "current" {
 
 #Create Resource Group
 resource "azurerm_resource_group" "tamops" {
-  name     = "github-thomasthorntoncloud-terraform-example"
-  location = "uksouth"
+  name     = "iac-demo02"
+  location = "westus2"
 }
 
 #Create Virtual Network
